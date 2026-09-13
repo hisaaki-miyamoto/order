@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>株式会社 丸近｜業務用 ご注文フォーム</title>
+<style>
+  :root{
+    --ink:#1c1a17;
+    --sub:#5f584f;
+    --line:#ded7cc;
+    --bg:#faf8f4;
+    --card:#ffffff;
+    --accent:#8c2f2f;
+    --accent-soft:#fdf3f1;
+    --shadow:0 1px 2px rgba(28,26,23,.05),0 8px 24px rgba(28,26,23,.06);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",
+                "Noto Sans JP",system-ui,sans-serif;
+    line-height:1.85;font-size:15px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px 80px}
+
+  header{
+    background:var(--card);border-bottom:1px solid var(--line);
+    padding:28px 20px 24px;margin-bottom:32px;
+  }
+  .head-in{max-width:760px;margin:0 auto}
+  .brand{
+    font-size:12px;letter-spacing:.22em;color:var(--sub);
+    margin:0 0 6px;font-weight:600;
+  }
+  h1{
+    font-size:23px;margin:0 0 10px;letter-spacing:.02em;font-weight:700;
+  }
+  .lead{margin:0;color:var(--sub);font-size:14px}
+
+  h2{
+    font-size:16px;margin:44px 0 14px;padding-bottom:9px;
+    border-bottom:2px solid var(--ink);letter-spacing:.04em;
+  }
+  h3{font-size:14px;margin:24px 0 8px;color:var(--accent)}
+
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:20px 22px;box-shadow:var(--shadow);margin:16px 0;
+  }
+
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0}
+  table{border-collapse:collapse;width:100%;min-width:460px;font-size:14px}
+  th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:right}
+  th:first-child,td:first-child{text-align:left;white-space:nowrap}
+  thead th{
+    background:var(--accent-soft);color:var(--accent);
+    font-weight:600;font-size:13px;border-bottom:1px solid var(--line);
+    text-align:right;
+  }
+  thead th:first-child{text-align:left}
+  tbody tr:last-child td{border-bottom:none}
+  .num{font-variant-numeric:tabular-nums}
+
+  .note{font-size:13px;color:var(--sub);margin:10px 0 0;padding-left:1.1em;text-indent:-1.1em}
+
+  .tax{
+    display:inline-block;background:var(--accent);color:#fff;
+    font-size:11px;padding:2px 9px;border-radius:999px;
+    letter-spacing:.08em;vertical-align:2px;margin-left:8px;font-weight:600;
+  }
+
+  .callout{
+    background:var(--accent-soft);border-left:3px solid var(--accent);
+    border-radius:0 8px 8px 0;padding:14px 18px;margin:16px 0;font-size:14px;
+  }
+  .callout p{margin:0 0 6px}
+  .callout p:last-child{margin:0}
+
+  .formbox{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    overflow:hidden;box-shadow:var(--shadow);margin-top:16px;
+  }
+  .formbox iframe{display:block;width:100%;border:0;min-height:1400px}
+  .placeholder{
+    padding:56px 24px;text-align:center;color:var(--sub);font-size:14px;
+    background:repeating-linear-gradient(45deg,#fbfaf7,#fbfaf7 12px,#f5f2ec 12px,#f5f2ec 24px);
+  }
+
+  .contact{
+    display:grid;grid-template-columns:auto 1fr;gap:6px 18px;
+    font-size:14px;margin:10px 0 0;
+  }
+  .contact dt{color:var(--sub);white-space:nowrap}
+  .contact dd{margin:0}
+  .contact a{color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor}
+
+  footer{
+    margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:12px;color:var(--sub);text-align:center;
+  }
+
+  @media (max-width:520px){
+    body{font-size:14px}
+    h1{font-size:19px}
+    .wrap{padding:0 16px 60px}
+    .card{padding:16px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-in">
+    <p class="brand">MARUKIN&nbsp;&nbsp;CO.,&nbsp;LTD.</p>
+    <h1>業務用 ご注文フォーム</h1>
+    <p class="lead">ホテル・旅館・飲食店さま向け／国産紅ズワイガニ 剥き身</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="callout">
+    <p>いつもお世話になっております。株式会社 丸近でございます。</p>
+    <p>下記フォームよりご注文を承っております。内容を確認のうえ、担当より折り返しご連絡を差し上げます。お急ぎの場合は、お電話でも承っております。</p>
+  </div>
+
+  <h2>商品と価格<span class="tax">表示価格はすべて税込</span></h2>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>商品</th><th>1〜3P</th><th>4P以上</th><th>大ロット</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>白身 500g</td><td class="num">3,456</td><td class="num">3,240</td><td class="num">3,024<br><small>30P以上</small></td></tr>
+        <tr><td>棒身 500g</td><td class="num">5,616</td><td class="num">5,400</td><td class="num">—</td></tr>
+        <tr><td>中身 500g</td><td class="num">4,536</td><td class="num">4,320</td><td class="num">4,104<br><small>30P以上</small></td></tr>
+        <tr><td>落し身 1kg</td><td class="num">1,620</td><td class="num">1,404</td><td class="num">1,296<br><small>20P以上</small></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="note">※ 単位は円（税込）、1パックあたりの価格でございます。</p>
+  <p class="note">※ 白身・棒身・中身は冷蔵／冷凍からお選びいただけます。落し身 1kg は冷凍のみのお取り扱いです。</p>
+  <p class="note">※ 最低注文数量の定めはございません。1パックから承ります。</p>
+
+  <h2>送料<span class="tax">税込</span></h2>
+
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>サイズ</th><th>500g商品（冷凍）</th><th>500g商品（冷蔵）</th><th>落し身 1kg</th><th>送料</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>80</td><td class="num">1〜6P</td><td class="num">1〜6P</td><td class="num">1〜5P</td><td class="num">1,650</td></tr>
+        <tr><td>100</td><td class="num">7〜12P</td><td class="num">7〜10P</td><td class="num">6〜10P</td><td class="num">1,980</td></tr>
+        <tr><td>140</td><td class="num">13〜40P</td><td class="num">11〜24P</td><td class="num">11〜20P</td><td class="num">2,970</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="note">※ 白身・棒身・中身は合計のパック数で判定いたします。落し身 1kg は別口となります。</p>
+  <p class="note">※ 上限を超える場合は、140サイズの上限ごとに 1口として承ります。<br>　　（例：冷凍で合計50パック ＝ 140サイズ 1口 ＋ 100サイズ 1口 ＝ 4,950円）</p>
+  <p class="note">※ 配送は佐川急便でのお届けとなります。</p>
+
+  <h2>お支払いについて</h2>
+
+  <div class="card">
+    <p style="margin:0 0 10px">末締め／翌月払い。下記よりお選びいただけます。</p>
+    <p style="margin:0">売掛（買掛け）／代金引換／前振込み／カード支払い</p>
+  </div>
+
+  <div class="callout">
+    <p><strong>初めてのお取引をいただく場合</strong></p>
+    <p>誠に恐れ入りますが、初回は代金引換または前振込みにてお願いしております。あわせて「お取引先様情報シート」のご提出をお願い申し上げます。折り返し担当よりご案内いたします。</p>
+  </div>
+
+  <h2>ご注文フォーム</h2>
+
+  <div class="formbox">
+    <!-- ▼▼▼ Googleフォームの埋め込みコードに差し替えてください ▼▼▼
+         Googleフォーム →「送信」→「< >」タブ → HTMLをコピー
+         <iframe src="https://docs.google.com/forms/d/e/xxxxx/viewform?embedded=true"
+                 width="100%" height="1400" frameborder="0"
+                 marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+    -->
+    <div class="placeholder">
+      ご注文フォームを準備しております。<br>
+      恐れ入りますが、いましばらくお待ちくださいませ。
+    </div>
+    <!-- ▲▲▲ ここまで ▲▲▲ -->
+  </div>
+
+  <h2>お問い合わせ</h2>
+
+  <div class="card">
+    <dl class="contact">
+      <dt>電話</dt><dd><a href="tel:0796361339">0796-36-1339</a></dd>
+      <dt>FAX</dt><dd>0796-36-3754</dd>
+      <dt>メール</dt><dd><a href="mailto:order@mrck.jp">order@mrck.jp</a></dd>
+    </dl>
+    <p class="note" style="margin-top:14px">※ FAXでのご注文も承っております。</p>
+  </div>
+
+  <div class="callout">
+    <p>※ フォームの送信は「ご注文の受付」であり、ご注文の確定ではございません。担当より折り返しご連絡を差し上げます。</p>
+    <p>※ 時化・入荷の状況により、ご希望に沿えない場合がございます。あらかじめご了承くださいませ。</p>
+  </div>
+
+  <footer>
+    株式会社 丸近　営業部<br>
+    〒669-6541　兵庫県美方郡香美町香住区
+  </footer>
+
+</div>
+
+</body>
+</html>
